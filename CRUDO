@@ -1,0 +1,56 @@
+{
+ "_id" : 1,
+ "Name" : "Steve Badiola",
+ "Salary" : 21599.55,
+ "Position" : "President",
+ "Rank" : 1,
+ "contact" : {
+ "email" : "steve.badiola.gov.ph",
+ "phone" : "+1 1234567"
+ }
+}
+{
+ "_id" : 2,
+ "Name" : "Jamir Garcia",
+ "Salary" : 19567.12,
+ "Position" : "Vice-President",
+ "Rank" : 2,
+ "ReportingTo" : [
+ "President"
+ ],
+ "contact" : {
+ "email" : "jamir.garcia@gov.ph",
+ "phone" : "+2 1234567"
+ }
+}
+{
+ "_id" : 3,
+ "Name" : "Reg Rubio",
+ "Salary" : 18891.22,
+ "Position" : "Secretary",
+ "Rank" : 3,
+ "ReportingTo" : [
+ "Vice-President",
+ “President”
+ ],
+ "contact" : {
+ "email" : "reg.rubio@gov.ph",
+ "phone" : "+3 1234567"
+ }
+}
+{
+ "_id" : 4,
+ "Name" : "Ian Tayao",
+ "Salary" : 18000,
+ "Position" : "Treasurer",
+ "Rank" : 4,
+ "ReportingTo" : [
+ "Secretary",
+ "Vice-President",
+ “President”
+ ],
+ "contact" : {
+ "email" : "ian.tayao@gov.ph",
+ "phone" : "+4 1234567"
+ }
+}
